@@ -8,5 +8,31 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshsangani814/authentication.git"
+  },
+  "bugs": {
+    "url": "https://github.com/harshsangani814/authentication/issues"
+  },
+  "homepage": "https://github.com/harshsangani814/authentication#readme",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^7.0.7",
+    "pg": "^8.16.3",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.27"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^24.6.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  }
 }
