@@ -1,10 +1,9 @@
-import "reflect-metadata";
+import "dotenv/config";
 import express from "express";
-import dotenv from "dotenv";
+import "reflect-metadata";
 import { AppDataSource } from "./ormconfig";
 import authRoutes from "./routes/auth.routes";
 
-dotenv.config();
 
 const app = express();
 app.use(express.json());
